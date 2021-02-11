@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity
                 {
                     try
                     {
-                        socket = new Socket("47.96.92.121", 8282);
+                        socket = new Socket("你的ip", 8282); //ip及端口
                         inputStream = socket.getInputStream();
                         outputStream = socket.getOutputStream();
                         if (socket.isConnected())
