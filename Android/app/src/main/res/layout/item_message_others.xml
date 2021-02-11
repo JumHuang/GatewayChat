@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ImageView
+		android:src="@android:drawable/ic_delete"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/item_message_others_avatar"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dp"/>
+
+	<TextView
+		android:layout_width="58dp"
+		android:layout_height="wrap_content"
+		android:text="用户"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@id/item_message_others_avatar"
+		android:id="@+id/item_message_others_name"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="1、人的一生没有一帆风顺的坦途。当你面对失败而优柔寡断，当动摇自信而怨天尤人，当你错失机遇而自暴自弃的时候你是否会思考：我的自信心呢？其实，自信心就在我们的心中。   2、人若软弱就是自己最大的敌人；人若勇敢就是自己最好的朋友。   3、人生，最宝贵的莫过于光阴；人生，最璀璨的莫过于事业；人生，最快乐的莫过于奋斗。   4、人生就像一杯没有加糖的咖啡，喝起来是苦涩的，回味起来却有久久不会退去的余香。   5、人生最大的错误是不断担心会犯错。"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="60dp"
+		android:layout_marginRight="60dp"
+		android:background="#FFE7E7E7"
+		android:id="@+id/item_message_others_content"
+		android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
+
